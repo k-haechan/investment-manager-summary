@@ -1,0 +1,89 @@
+site_name: 투자자산운용사 핵심요약집
+site_description: 투자자산운용사 시험 과목·단원·챕터별 핵심요약과 기출 빈출도(★★★/★★/★)
+site_url: https://k-haechan.github.io/investment-manager-summary/
+repo_url: https://github.com/k-haechan/investment-manager-summary
+repo_name: k-haechan/investment-manager-summary
+
+theme:
+  name: material
+  language: ko
+  font:
+    text: Noto Sans KR
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: 다크 모드
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: 라이트 모드
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.highlight
+    - search.suggest
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - pymdownx.arithmatex:
+      generic: true
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js
+
+nav:
+  - 홈: index.md
+  - 별점 기준: guide.md
+  - 1과목 금융상품 및 세제:
+      - subject-1/index.md
+      - 세제관련 법규/세무전략: subject-1/tax.md
+      - 금융상품: subject-1/financial-products.md
+      - 부동산관련 상품: subject-1/real-estate.md
+  - 2과목 투자운용 및 전략Ⅱ·투자분석:
+      - subject-2/index.md
+      - 대안투자운용/투자전략: subject-2/alternative.md
+      - 해외증권투자운용/투자전략: subject-2/overseas.md
+      - 투자분석기법: subject-2/analysis.md
+      - 리스크관리: subject-2/risk.md
+  - 3과목 직무윤리·법규·투자운용 및 전략Ⅰ:
+      - subject-3/index.md
+      - 직무윤리: subject-3/ethics.md
+      - 자본시장 관련 법규: subject-3/capital-market-law.md
+      - 한국금융투자협회규정: subject-3/kofia-rules.md
+      - 주식투자운용/투자전략: subject-3/equity.md
+      - 채권투자운용/투자전략: subject-3/bond.md
+      - 파생상품투자운용/투자전략: subject-3/derivatives.md
+      - 투자운용결과분석: subject-3/performance.md
+      - 거시경제: subject-3/macro.md
+      - 분산투자기법: subject-3/portfolio.md

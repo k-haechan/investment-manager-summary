@@ -1,0 +1,28 @@
+:root {
+  --star-3: #d97706;
+  --star-2: #ca8a04;
+  --star-1: #a8a29e;
+}
+
+[data-md-color-scheme="slate"] {
+  --star-3: #fbbf24;
+  --star-2: #facc15;
+  --star-1: #78716c;
+}
+
+/* 별점 배지: <span class="star s3">★★★</span> */
+.star {
+  display: inline-block;
+  padding: 0 0.45em;
+  border-radius: 0.3em;
+  font-size: 0.85em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.star.s3 { color: var(--star-3); background: color-mix(in srgb, var(--star-3) 14%, transparent); }
+.star.s2 { color: var(--star-2); background: color-mix(in srgb, var(--star-2) 12%, transparent); }
+.star.s1 { color: var(--star-1); background: color-mix(in srgb, var(--star-1) 12%, transparent); }
+
+.md-typeset table:not([class]) th { white-space: nowrap; }
