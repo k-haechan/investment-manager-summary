@@ -4,9 +4,9 @@
 
 | 별점 | 의미 | 학습 우선순위 |
 |---|---|---|
-| <span class="star s3">★★★</span> | 거의 매회 출제 | 반드시 암기 |
-| <span class="star s2">★★</span> | 자주 출제 | 개념 이해 + 핵심 숫자 |
-| <span class="star s1">★</span> | 가끔 출제 | 시간이 남으면 |
+| <span class="star s3">★★★</span> | 빈출 추정 최상위 | 반드시 암기 |
+| <span class="star s2">★★</span> | 자주 출제 추정 | 개념 이해 + 핵심 숫자 |
+| <span class="star s1">★</span> | 가끔 출제 추정 | 시간이 남으면 |
 
 별점을 정한 방식과 출처는 [별점 기준](guide.md)에 있습니다.
 
@@ -23,11 +23,11 @@
 | [1과목 금융상품 및 세제](subject-1/index.md) (20) | [세제관련 법규/세무전략](subject-1/tax.md) | 7 |
 | | [금융상품](subject-1/financial-products.md) | 8 |
 | | [부동산관련 상품](subject-1/real-estate.md) | 5 |
-| [2과목 투자운용 및 전략Ⅱ·투자분석](subject-2/index.md) (30) | [대안투자운용/투자전략](subject-2/alternative.md) | 5 |
+| [2과목 투자운용 및 전략 Ⅱ 및 투자분석](subject-2/index.md) (30) | [대안투자운용/투자전략](subject-2/alternative.md) | 5 |
 | | [해외증권투자운용/투자전략](subject-2/overseas.md) | 5 |
 | | [투자분석기법](subject-2/analysis.md) | 12 |
 | | [리스크관리](subject-2/risk.md) | 8 |
-| [3과목 직무윤리·법규·투자운용 및 전략Ⅰ](subject-3/index.md) (50) | [직무윤리](subject-3/ethics.md) | 5 |
+| [3과목 직무윤리 및 법규/투자운용 및 전략Ⅰ 등](subject-3/index.md) (50) | [직무윤리](subject-3/ethics.md) | 5 |
 | | [자본시장 관련 법규](subject-3/capital-market-law.md) | 11 |
 | | [한국금융투자협회규정](subject-3/kofia-rules.md) | 3 |
 | | [주식투자운용/투자전략](subject-3/equity.md) | 6 |
